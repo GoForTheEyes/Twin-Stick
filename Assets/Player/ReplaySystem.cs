@@ -12,7 +12,6 @@ public class ReplaySystem: MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         myRigidbody = GetComponent<Rigidbody>();
-        MyKeyFrame testKey = new MyKeyFrame(1f, Vector3.up, Quaternion.identity);
         gameManager = GameObject.FindObjectOfType<GameManager>();
 	}
 	
